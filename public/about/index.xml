@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>À propos on My New Hugo Site</title>
+    <link>https://example.org/about/</link>
+    <description>Recent content in À propos on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 24 Jan 2024 14:07:57 -0500</lastBuildDate>
+    <atom:link href="https://example.org/about/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Campagne &#34;Vivre Au Vert&#34; </title>
+      <link>https://example.org/about/event-5/</link>
+      <pubDate>Wed, 24 Jan 2024 14:07:57 -0500</pubDate>
+      <guid>https://example.org/about/event-5/</guid>
+      <description>La campagne Vivre Au Vert s&amp;rsquo;adressait aux partis politiques pour les inciter à s&amp;rsquo;engager dans la lutte face à la crise climatique.</description>
+    </item>
+    <item>
+      <title>Création d&#39;un comité de développement durable à l&#39;ÉTS</title>
+      <link>https://example.org/about/event-1/</link>
+      <pubDate>Wed, 24 Jan 2024 14:07:57 -0500</pubDate>
+      <guid>https://example.org/about/event-1/</guid>
+      <description>Le comité est né sous l&amp;rsquo;impulsion de Philippe Terrier alors étudiant à l&amp;rsquo;École de Technologie Supérieure. Il a alors pour mandat d&amp;rsquo;introduire les concepts de développement durable au sein de l&amp;rsquo;université, et prend initialement le nom de Comité pour l’environnement et pour la justice sociale.</description>
+    </item>
+    <item>
+      <title>Historique</title>
+      <link>https://example.org/about/historique/</link>
+      <pubDate>Wed, 24 Jan 2024 14:07:57 -0500</pubDate>
+      <guid>https://example.org/about/historique/</guid>
+      <description>Historique Tributerre a été créé par Philippe Terrier, maintenant maître d&amp;rsquo;enseignement et responsable du Laboratoire Ingénierie et Développement Durable (LIDD). Le comité a particulièrement été actif en 2018-2019 avec l’équipe dirigée par Raphaël Leblanc. Le comité à grandement contribué à la mise en place de pratiques plus durables au sein de l’université. Parmi ses réalisations :</description>
+    </item>
+    <item>
+      <title>Introduction des tasses réutilisables à l&#39;ETS</title>
+      <link>https://example.org/about/event-2/</link>
+      <pubDate>Wed, 24 Jan 2024 14:07:57 -0500</pubDate>
+      <guid>https://example.org/about/event-2/</guid>
+      <description>Le premier mandat du comité fut l&amp;rsquo;introduction de tasses réutilisables au sein de la communauté étudiante, idée qui semble facile de nos jours mais qui était un immense défi à l&amp;rsquo;époque. 365 tasses jetables sont alors empilées devant la cafétéria pour sensibiliser la communauté étudiante à se tourner vers des tasses réutilisables.</description>
+    </item>
+    <item>
+      <title>Relance du comité&#34; </title>
+      <link>https://example.org/about/event-6/</link>
+      <pubDate>Wed, 24 Jan 2024 14:07:57 -0500</pubDate>
+      <guid>https://example.org/about/event-6/</guid>
+      <description>Après plus de 2 ans d&amp;rsquo;inactivité due au COVID-19, le comité est réactivé et de nouveaux projets sont lancés par l&amp;rsquo;équipe nouvellement constituée!</description>
+    </item>
+    <item>
+      <title>Signature de la déclaration d’urgence climatique pour l’ONU</title>
+      <link>https://example.org/about/event-3/</link>
+      <pubDate>Wed, 24 Jan 2024 14:07:57 -0500</pubDate>
+      <guid>https://example.org/about/event-3/</guid>
+      <description>En collaboration avec les conseillers en développement durable de l&amp;rsquo;ÉTS, l&amp;rsquo;équipe du comité, désormais appelé TribuTerre, signe la déclaration d&amp;rsquo;urgence climatique de l&amp;rsquo;ONU. À travers cette déclaration, issue de l&amp;rsquo;accord de Paris, les signataires s&amp;rsquo;accordent à limiter le réchauffement climatique à moins de 1,5 degré Celsius.</description>
+    </item>
+    <item>
+      <title>Tenue du bilan carbone de l’ETS</title>
+      <link>https://example.org/about/event-4/</link>
+      <pubDate>Wed, 24 Jan 2024 14:07:57 -0500</pubDate>
+      <guid>https://example.org/about/event-4/</guid>
+      <description>TribuTerre, toujours en collaboration avec le service de développement durable de l&amp;rsquo;ÉTS, calcule l&amp;rsquo;empreinte carbone de l&amp;rsquo;école. Cette étude était nécessaire pour fixer un cap vers une université plus soutenable.</description>
+    </item>
+  </channel>
+</rss>

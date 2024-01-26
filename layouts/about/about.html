@@ -1,0 +1,47 @@
+{{define "style"}}
+{{ $headerStyle := resources.Get "styles/list.css" }}
+<link rel="stylesheet" href="{{$headerStyle.RelPermalink}}">
+{{end}}
+
+{{define "main"}}
+<div class="list-title">
+    <div class="text-title">
+        {{.Content}}
+    </div>
+    {{with .Params.image}}
+    {{ $image := resources.Get (partial "adapt_img.html" . )}}
+    <img src="{{ $image.RelPermalink }}" class="image-title">
+    {{end}}
+</div>
+
+{{ with .Site.GetPage "page" "historique" }}
+<div class="historique">
+    <div class="historique-content">
+        {{.Content}}
+    </div>
+    {{end}}
+    <div class="historique-table">
+        {{$events := where .Pages "Params.event" true}}
+        {{$sorted :=sort $events "Params.eventDate" "asc" }}
+        {{ range $sorted  }}
+        <div class="historique-card">
+            <div>
+            <p class="date"><b>{{.Params.eventDate}} 
+                {{ with .Params.eventEnd }}
+                - {{.}}
+                {{end}}
+            </b></p>
+            <em>{{.Title}}</em>
+            {{.Name}}
+            </div>
+            <div>
+                {{.Content}}
+            </div>
+        </div>
+
+        {{end}}
+    </div>
+
+</div>
+
+{{end}}

@@ -1,0 +1,23 @@
+{{define "style"}}
+{{ $headerStyle := resources.Get "styles/projects.css" }}
+<link rel="stylesheet" href="{{$headerStyle.RelPermalink}}">
+{{end}}
+
+{{define "main"}}
+<div class="project-div">
+    {{.Content}}
+
+    {{range .Pages.ByTitle}}
+    <div class="project-card">
+        <div class="project-text">
+            {{.Content}}
+        </div>
+        {{with .Params.image}}
+        {{ $image := resources.Get (partial "adapt_img.html" .) }}
+        <img src="{{ $image.RelPermalink }}" class="project-image">
+        {{end}}
+    </div>
+
+    {{end}}
+</div>
+{{end}}

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>L&#39;équipe on My New Hugo Site</title>
+    <link>https://example.org/equipe/</link>
+    <description>Recent content in L&#39;équipe on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 24 Jan 2024 14:07:57 -0500</lastBuildDate>
+    <atom:link href="https://example.org/equipe/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://example.org/equipe/arthur_loubert/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/equipe/arthur_loubert/</guid>
+      <description>Toujours désireux de développer mes compétences et connaissances autour des problématiques environnementales, j’ai décidé de poursuivre au doctorat à l’ÉTS après l’obtention d’une maitrise en génie de l’environnement. Persuadé qu’il n’est pas “trop tard”, j’ai l’envie, à mon échelle, et avec Tributerre, de contribuer à des projets sensés, d’échanger et d’apprendre !</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://example.org/equipe/audrey_eck/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/equipe/audrey_eck/</guid>
+      <description>Pourquoi TribuTerre ?&#xA;Contribuer à des projets qui ont du sens avec les enjeux environnementaux et en apprendre toujours plus sur les solutions possibles c’est ce qui m’a motivé à rejoindre TribuTerre.&#xA;Et surtout, parce que je suis convaincue que plus de monde on est, plus on peut changer les choses !</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://example.org/equipe/charles_bricout/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/equipe/charles_bricout/</guid>
+      <description>A la base c’était juste une histoire de pizza gratuites et de café étudiant mais derrière il y a des supers projet et des personnes géniales donc j’étais un peu obligé de rester.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://example.org/equipe/jean-cedric_faucher/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/equipe/jean-cedric_faucher/</guid>
+      <description>Ayant terminé mon bac en génie de la construction en 2021 à l&amp;rsquo;ÉTS, j&amp;rsquo;ai travaillé en développement durable en tant que chargé de projet LEED et en réalisant des analyses du cycle de vie de bâtiment. Voulant pousser davantage mes connaissances dans le domaine de l&amp;rsquo;environnement et l&amp;rsquo;écologie, j&amp;rsquo;ai donc décidé de commencer une maîtrise en recherche dans un projet sur la réutilisation et revalorisation de plastiques usés dans le domaine agricole dans une perspective d&amp;rsquo;économie circulaire.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://example.org/equipe/louis_liogier/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/equipe/louis_liogier/</guid>
+      <description>J&amp;rsquo;ai envie d&amp;rsquo;avoir un futur, que mes petites sœurs aient un futur, que mes amis, ma famille et tous les gens auxquels je tiens aies un futur. Et aujourd&amp;rsquo;hui la situation est critique, il faut agir. Je veux changer le monde, mais ce n’est pas possible seul alors je participe à ma manière : en partie par mon engagement dans tributerre qui avec tous ses projets apporte sa pierre à l&amp;rsquo;édifice et participe à la protection de l’environnement.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://example.org/equipe/marianne_lipp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/equipe/marianne_lipp/</guid>
+      <description>J&amp;rsquo;ai obtenu mon diplôme en génie civil avec une spécialisation en développement durable à l&amp;rsquo;hiver 2022. Je me suis impliquée dans plusieurs projets de conception de bâtiments axés sur la durabilité et je travaille maintenant à temps partiel sur des projets d’économie d’énergie. À mon arrivée à l’ETS, j&amp;rsquo;ai rejoint le comité d’agriculture urbaine SerreETS, puis j’ai décidé de relancer Tributerre avec l’aide des conseillers en développement durable de l’université. Mon objectif est de jouer un rôle significatif dans la mise en place d&amp;rsquo;infrastructures résilientes et respectueuses de l&amp;rsquo;environnement !</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://example.org/equipe/marie_teillot/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/equipe/marie_teillot/</guid>
+      <description>Étudiante en double diplôme à l’ETS, je suis intéressé par les question environnementales depuis longtemps. Mon domaine de prédilection est la transition énergétique. J’ai déjà été engagé dans des organisations étudiantes, notamment en coordonnant l’association spécialisée en transition écologique et sociale de mon école en France.&#xA;Engagée aussi à FresqueÉTS et en dehors de l’ETS à la Fresque de la mobilité Québec, je suis motivée à faire adopter des pratiques plus écologiques, une société plus solidaire et respectueuses des personnes et du vivant !</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://example.org/equipe/pierre_schmidt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/equipe/pierre_schmidt/</guid>
+      <description>On dit que le rôle de l&amp;rsquo;ingénieur est de résoudre des problème. Il semblerait qu&amp;rsquo;un gros problème arrive. À nous de le résoudre !</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://example.org/equipe/victor_bellemin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/equipe/victor_bellemin/</guid>
+      <description>Ayant grandi dans les montagnes des Alpes, je suis très attaché à la nature. Après m’être perdu dans les cartes électroniques et les logiciels, je cherche à présent à donner un sens aux compétences acquises lors de mes études. Dans le but d’avoir un impact positif sur la société et la nature.</description>
+    </item>
+  </channel>
+</rss>

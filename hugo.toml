@@ -1,0 +1,6 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+[params]
+    image_folder = "compressed"
+    image_ext = "webp"

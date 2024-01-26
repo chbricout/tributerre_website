@@ -1,0 +1,6 @@
+[submodule "solar_v2"]
+	path = solar_v2
+	url = https://github.com/lowtechmag/solar_v2.git
+[submodule "themes/solar_v2"]
+	path = themes/solar_v2
+	url = https://github.com/lowtechmag/solar_v2.git

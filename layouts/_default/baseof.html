@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>{{ block "title" . }}
+        {{ .Site.Title }}
+        {{ end }}
+    </title>
+    {{ $headerStyle := resources.Get "styles/main.css" }}
+    <link rel="stylesheet" href="{{$headerStyle.RelPermalink}}">
+
+    {{ block "style" . }}
+    {{end}}
+</head>
+
+<body>
+    {{- $page := . }}
+    {{$class:=""}}
+
+    <div class="navbar">
+        <h1>TRIBUTERRE</h1>
+        {{ $logo := resources.Get (partial "adapt_img.html" "logo") }}
+        <img class="logo" src="{{ $logo.RelPermalink }}" alt="Logo Tributerre">
+        <div class="menu">
+            {{range site.Menus.nav}}
+            {{- if $page.IsMenuCurrent .Menu . }}
+            {{$class = "active"}}
+            {{else}}
+            {{$class = ""}}
+            {{end}}
+            <a href="{{.URL}}" class="{{$class}}">{{.Name}}</a>
+            {{end}}
+        </div>
+    </div>
+    <main>
+        {{ block "main" . }}
+        <!-- The part of the page that begins to differ between templates -->
+        {{ end }}
+    </main>
+    {{ block "footer" . }}
+    <footer>
+        <div class="footer-title">
+            <h2>
+                TribuTerre-ets
+            </h2>
+            <div>
+                &copy; 2023 par TribuTerre-ets.
+            </div>
+        </div>
+        <div class="footer-contact">
+            <h2>Nous rejoindre</h2>
+            <div>
+                <a href="mailto:tributerre@aeets.com">tributerre@aeets.com</a>
+            </div>
+            <div>
+                1100 R. Notre Dame O, Montréal, QC H3C 1K3, Canada
+            </div>
+        </div>
+    </footer>
+
+    {{ end }}
+</body>
+
+</html>

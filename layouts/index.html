@@ -1,0 +1,116 @@
+{{define "main"}}
+<div class="big-card">
+    <h1>TribuTerre </h1>
+    <h2>
+        Mettre l'environnement au cœur du génie
+    </h2>
+</div>
+
+<div class="more-info">
+    <div class="text-info">
+        <h2>PLUS D'INFORMATION SUR TRIBUTERRE</h2>
+        <p>
+            Tributerre est un comité étudiant de l'École de technologie supérieure (ÉTS) qui a pour mission de remettre
+            la
+            protection de l'environnement au cœur du génie.
+        </p>
+        <p>
+            À travers ses projets, le comité vise à promouvoir les bonnes pratiques écologiques auprès des différents
+            acteurs de l'ÉTS.
+        </p>
+        <p>
+
+            Nous souhaitons être la référence pour la communauté de l’ÉTS, en matière d’information sur les causes et
+            conséquences du réchauffement climatique et être vecteur de changement vers des pratiques plus durables au
+            sein
+            de l’université.
+        </p>
+    </div>
+    <div class="image-info">
+        {{ $pavillonE := resources.Get (partial "adapt_img.html" "ets_pavillon_e") }}
+        <img src="{{ $pavillonE.RelPermalink }}" width="{{ $pavillonE.Width }}" height="{{ $pavillonE.Height }}"
+            alt="Photo du pavillon E de l'ETS">
+    </div>
+</div>
+
+<div class="mission-values">
+    <div class="values">
+        <h2>Nos valeurs</h2>
+        <p>
+            Les actions du comité Tributerre sont portées par les valeurs suivantes :
+        <ul>
+            <li>La responsabilité environnementale et sociale;</li>
+
+            <li> Le respect des personnes, de la diversité, de l’intégrité de chacun; </li>
+
+            <li> La transparence ;</li>
+
+            <li>La solidarité;</li>
+
+            <li> La gouvernance participative.</li>
+        </ul>
+        </p>
+    </div>
+    <div class="missions">
+        <h2> Nos missions</h2>
+
+
+        <ul>
+
+            <li> Amener l’ingénieur de demain à intégrer les nouveaux impératifs environnementaux dans sa pratique
+                professionnelle et dans ses habitudes de vie;</li>
+
+            <li> Réduire l'empreinte écologique de la vie à l'ÉTS : infrastructures, activités d'enseignement,
+                évènements ;</li>
+
+            <li> Développer et tester des solutions d’ingénierie durable, entres autres dans les domaines des énergies
+                renouvelables et du low-tech;</li>
+
+            <li> Informer et éduquer la communauté de l’ETS sur les nouveaux enjeux environnementaux et sociaux;</li>
+
+            <li> Proposer des ressources fiables et gratuites pour mettre de l'avant les solutions existantes ;</li>
+
+            <li> Animer et agrémenter la vie étudiante de l’ÉTS.</li>
+        </ul>
+
+    </div>
+</div>
+
+<div class="projects">
+    <h2> CE QUE PROPOSE TRIBUTERRE</h2>
+    <div class="card-carroussel">
+        <div class="card">
+            {{ $whiteMountain := resources.Get (partial "adapt_img.html" "homepage/carroussel/white-mountain") }}
+            <img src="{{ $whiteMountain.RelPermalink }}" alt="Montagne enneigé" class="card-image">
+            <div class="card-text">
+                <h3>MENER DES CAMPAGNES DE SENSIBILISATION</h3>
+
+                <p>À travers des conférences, des ateliers et des activités, TribuTerre souhaite conscientiser la communauté de l'ÉTS à propos des changements climatiques </p>
+            </div>
+        </div>
+
+        <div class="card">
+            {{ $greenForest := resources.Get (partial "adapt_img.html" "homepage/carroussel/green-forest" )}}
+            <img src="{{ $greenForest.RelPermalink }}" alt="Forêt" class="card-image">
+            <div class="card-text">
+                <h3>RÉDUIRE L'IMPACT ENVIRONNEMENTAL DE L'ÉTS</h3>
+
+                <p>Le comité met en place des projets en collaboration avec l'ÉTS pour tenter de limiter les émissions de gaz à effet de serre du campus, son empreinte écologique et sa production de déchets.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            {{ $meltingIce := resources.Get (partial "adapt_img.html" "homepage/carroussel/melting-ice") }}
+            <img src="{{ $meltingIce.RelPermalink }}" alt="Neige fondue" class="card-image">
+            <div class="card-text">
+                <h3>PROPOSER DES SOLUTIONS </h3>
+
+                <p>L'équipe de TribuTerre souhaite partager des solutions simples pour aider la communauté de l'ÉTS à vivre de manière plus soutenable</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<small><a href="https://www.openstreetmap.org/?mlat=45.49516&amp;mlon=-73.56303#map=19/45.49516/-73.56303">Afficher une carte plus grande</a></small>
+<iframe style="width:100%; border:none" height="470" src="https://www.openstreetmap.org/export/embed.html?bbox=-73.56480449438097%2C45.49434891007691%2C-73.5612639784813%2C45.4959733568331&amp;layer=mapnik&amp;marker=45.495161139312415%2C-73.56303423643112" ></iframe>
+{{end}}
